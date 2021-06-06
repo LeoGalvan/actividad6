@@ -1,0 +1,37 @@
+.navbar{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    letter-spacing: 4px;
+}
+#navbardrop{
+    color: #fff;
+    background-color: rgba(253, 244, 109, 0.993);
+}
+#container{
+    text-align: center;
+}
+.col-sm-2{
+    margin-left: 3%;
+}
+.bolsa{
+    margin-bottom: 3%;
+}
+footer{
+    letter-spacing: 5%;
+}
+#galeria {
+    margin: 1rem auto;
+    padding: 0%;
+}
+#derecha{
+    column-count: 2;
+}
+@media(max-width:600px){
+    #barra{display: none;}
+    #carouselExampleSlidesOnly{display: none;}
+    #texto{display: none;}
+    #galeria{display: none;}
+}
+.text-center{
+    margin-top: 3%;
+}
